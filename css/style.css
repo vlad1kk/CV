@@ -96,6 +96,7 @@ body {
   text-decoration: none;
 }
 .menu .menu__list-1 {
+  cursor: default;
   width: 311px;
   padding-top: 14px;
   padding-bottom: 19px;
@@ -137,7 +138,7 @@ body {
   padding-top: 14px;
   padding-bottom: 16px;
   text-align: center;
-  margin-right: 870px;
+  margin-right: 612px;
   border-right: 1px solid #1E2D3D;
 }
 .menu .menu__list-2 .menu__sublist-3:hover {
