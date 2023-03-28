@@ -69,19 +69,17 @@ html, body {
 
 body {
   line-height: 1;
-}
-
-body {
-  width: 1782px;
+  max-width: 1300px;
   height: 941.32px;
+  background-color: #000;
   background-image: url(../img/MainBackground.png);
 }
 
 .header__container {
   position: absolute;
-  width: 1782px;
-  height: 56.19px;
-  border: 1px solid #607B96;
+  height: 56px;
+  border: 1px solid #1E2D3D;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .menu {
@@ -92,9 +90,18 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  border-radius: 10px 10px 0px 0px;
+}
+.menu a {
+  text-decoration: none;
 }
 .menu .menu__list-1 {
   width: 311px;
+  padding-top: 14px;
+  padding-bottom: 19px;
+  text-align: start;
+  padding-left: 22px;
+  border-right: 1px solid #1E2D3D;
 }
 .menu .menu__list-2 {
   display: -webkit-box;
@@ -104,13 +111,51 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  max-width: 421px;
+}
+.menu .menu__list-2 .menu__sublist-1 {
+  width: 121px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  text-align: center;
+  border-right: 1px solid #1E2D3D;
+}
+.menu .menu__list-2 .menu__sublist-1:hover {
+  border-bottom: 3px solid #FEA55F;
+}
+.menu .menu__list-2 .menu__sublist-2 {
+  width: 150px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  text-align: center;
+  border-right: 1px solid #1E2D3D;
+}
+.menu .menu__list-2 .menu__sublist-2:hover {
+  border-bottom: 3px solid #FEA55F;
+}
+.menu .menu__list-2 .menu__sublist-3 {
+  width: 150px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  text-align: center;
+  margin-right: 870px;
+  border-right: 1px solid #1E2D3D;
+}
+.menu .menu__list-2 .menu__sublist-3:hover {
+  border-bottom: 3px solid #FEA55F;
 }
 .menu .menu__list-3 {
-  max-width: 1050px;
+  width: 175px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  padding-right: 23px;
+  padding-left: 24px;
+  text-align: center;
+  border-left: 1px solid #1E2D3D;
 }
-
-.menu__link {
+.menu .menu__list-3:hover {
+  border-bottom: 3px solid #FEA55F;
+}
+.menu .menu__link {
   width: 87px;
   height: 21px;
   font-family: "Fira Code";
