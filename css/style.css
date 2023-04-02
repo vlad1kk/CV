@@ -176,8 +176,8 @@ body {
   position: absolute;
   margin-top: 55px;
   background-color: #fff;
-  width: 200px;
-  height: 400px;
+  width: 1534px;
+  height: 768px;
 }
 
 .footer {
@@ -209,12 +209,87 @@ body {
   padding-left: 22px;
   padding-right: 18px;
   padding-top: 15px;
+  width: 150px;
+  height: 56px;
   border-right: 1px solid #1E2D3D;
-  width: 146px;
 }
 
-.item__sublist-1 img {
+.item__list-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.item__list-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.item__link img {
   width: 24px;
   height: 24px;
+}
+
+.item__sublist-1 {
+  width: 52px;
+  height: 56px;
+  border-right: 1px solid #1E2D3D;
+  padding-left: 14px;
+  padding-top: 13px;
+  padding-right: 14px;
+}
+.item__sublist-1:hover {
+  border-bottom: 3px solid #FEA55F;
+}
+
+.item__sublist-2 {
+  width: 52px;
+  height: 56px;
+  border-right: 1px solid #1E2D3D;
+  padding-left: 14px;
+  padding-top: 13px;
+  padding-right: 14px;
+  margin-right: 1135px;
+}
+.item__sublist-2:hover {
+  border-bottom: 3px solid #FEA55F;
+}
+
+.item__list-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-left: 1px solid #1E2D3D;
+}
+.item__list-3:hover {
+  border-bottom: 3px solid #FEA55F;
+}
+.item__list-3 a {
+  padding-left: 23px;
+  padding-top: 16px;
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
   color: #607B96;
+  text-decoration: none;
+}
+.item__list-3 .item__img {
+  padding-left: 5px;
+  padding-top: 14px;
+  padding-right: 22px;
 }
