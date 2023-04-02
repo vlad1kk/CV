@@ -59,9 +59,14 @@ html, body{
 body{
     line-height: 1;
 	max-width: 1300px;
-    height: 941.32px;
+    height: 850px;
     background-color: #000;
     background-image: url(../img/MainBackground.png);
+
+    border-radius: 10px 10px 10px 10px;
+}
+.header{
+    position: relative;
 }
 .header__container {
     position: absolute;
@@ -113,7 +118,7 @@ body{
             padding-top: 14px;
             padding-bottom: 16px;
             text-align: center;
-            margin-right: 612px;
+            margin-right: 625px;
             border-right: 1px solid #1E2D3D;
             &:hover{
                 border-bottom: 3px solid  #FEA55F;
@@ -143,4 +148,46 @@ body{
         color: #607B96;
     }
     border-radius: 10px 10px 0px 0px;
+}
+
+.main{
+    position: absolute;
+    margin-top: 55px;
+    background-color: #fff;
+    width:200px;
+    height: 400px;
+}
+
+// ====================================
+.footer{
+    position: absolute;
+    margin-top: 823px;
+    height: 56px;
+    border: 1px solid #1E2D3D;
+    border-radius: 0px 0px 10px 10px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    color: #607B96;
+}
+.item__list-1{
+    cursor: default;
+    padding-left: 22px;
+    padding-right: 18px;
+    padding-top: 15px;
+    border-right: 1px solid #1E2D3D;
+    width: 146px;
+}
+.item__sublist-1{
+    img{
+        width: 24px;
+        height: 24px;
+        color: #607B96;
+    }
 }
