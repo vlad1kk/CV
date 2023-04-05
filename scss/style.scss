@@ -154,10 +154,45 @@ body{
 .main{
     position: absolute;
     margin-top: 55px;
-    background-color: #fff;
     width:1534px;
     height: 768px;
+    color: #fff;
 }
+.main {
+}
+.main__container {
+    margin-top: 300px;
+}
+.main__title {
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 24px;
+    color: #E5E9F0;
+    text-align: center;
+}
+.main__name {
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 81px;
+    color: #E5E9F0;
+    text-align: center;
+}
+.main__position {
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 42px;
+    color: #4D5BCE;
+    text-align: center;
+
+}
+
+
 
 // ===================================================
 //footer:
